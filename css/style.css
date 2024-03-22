@@ -1,0 +1,42 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+body{
+  text-align: left;
+}
+h1 {
+  font-size: 75px;
+}
+h1, input, button, h2, img, h3, h4, li{
+  margin: 0 2%;
+  color: white;
+}
+button, input, #black {
+  color: black;
+}
+li {
+  list-style: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  background-image: url("img/drinks3.jpg");
+  background-repeat:no-repeat; 
+  background-size:100%;
+}
